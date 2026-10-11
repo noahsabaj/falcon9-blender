@@ -1,0 +1,339 @@
+{
+  "samples": 3120000,
+  "duration_s": 65.0,
+  "sample_rate": 48000,
+  "mix": {
+    "integrated_lufs": -14.01,
+    "true_peak_dbtp": -1.3,
+    "sample_peak_dbfs": -1.31,
+    "max_momentary_lufs": -8.88,
+    "max_short_term_lufs": -9.86,
+    "loudness_range_lu": 12.86,
+    "dc_offset": [
+      -5.75e-06,
+      -4.77e-06
+    ],
+    "clipped_samples": 0,
+    "band_energy_percent": {
+      "0-30 Hz": 0.252,
+      "30-60 Hz": 7.513,
+      "60-120 Hz": 17.458,
+      "120-250 Hz": 26.457,
+      "250-500 Hz": 25.307,
+      "500-2000 Hz": 20.832,
+      "2000-8000 Hz": 2.178,
+      "8000-12000 Hz": 0.004,
+      "12000-24000 Hz": 0.0
+    },
+    "stereo": {
+      "lr_correlation": 0.612,
+      "mono_minus_stereo_lufs": -0.98
+    },
+    "hf_above_8k_rms_dbfs": -57.6,
+    "hf_above_8k_peak_dbfs": -23.5,
+    "short_term_lufs_every_2s": {
+      "2": -28.3,
+      "4": -22.8,
+      "6": -22.7,
+      "8": -24.1,
+      "10": -21.2,
+      "12": -20.3,
+      "14": -19.8,
+      "16": -21.5,
+      "18": -16.2,
+      "20": -14.3,
+      "22": -13.8,
+      "24": -11.8,
+      "26": -9.9,
+      "28": -10.4,
+      "30": -12.2,
+      "32": -12.3,
+      "34": -14.4,
+      "36": -24.3,
+      "38": -23.3,
+      "40": -20.9,
+      "42": -16.9,
+      "44": -14.8,
+      "46": -14.5,
+      "48": -16.4,
+      "50": -15.6,
+      "52": -12.6,
+      "54": -11.1,
+      "56": -10.3,
+      "58": -12.2,
+      "60": -16.8,
+      "62": -19.1,
+      "64": -22.8
+    }
+  },
+  "music": {
+    "integrated_lufs": -14.89,
+    "true_peak_dbtp": -1.2,
+    "sample_peak_dbfs": -1.2,
+    "max_momentary_lufs": -9.94,
+    "max_short_term_lufs": -11.82,
+    "loudness_range_lu": 11.68,
+    "dc_offset": [
+      1.43e-06,
+      1.57e-06
+    ],
+    "clipped_samples": 0
+  },
+  "sfx": {
+    "integrated_lufs": -18.05,
+    "true_peak_dbtp": -1.43,
+    "sample_peak_dbfs": -1.44,
+    "max_momentary_lufs": -11.39,
+    "max_short_term_lufs": -12.92,
+    "loudness_range_lu": 22.18,
+    "dc_offset": [
+      -7.19e-06,
+      -6.34e-06
+    ],
+    "clipped_samples": 0
+  },
+  "sections": {
+    "act1": {
+      "lufs": -17.3,
+      "music_lufs": -17.3,
+      "sfx_lufs": -36.6,
+      "lr_corr": 0.665
+    },
+    "act2_near": {
+      "lufs": -9.9,
+      "music_lufs": -12.5,
+      "sfx_lufs": -13.3,
+      "lr_corr": 0.639
+    },
+    "act2_far": {
+      "lufs": -12.4,
+      "music_lufs": -13.0,
+      "sfx_lufs": -21.8,
+      "lr_corr": 0.63
+    },
+    "act3": {
+      "lufs": -16.9,
+      "music_lufs": -16.2,
+      "sfx_lufs": -25.0,
+      "lr_corr": 0.424
+    },
+    "act4": {
+      "lufs": -12.7,
+      "music_lufs": -13.5,
+      "sfx_lufs": -18.2,
+      "lr_corr": 0.614
+    },
+    "resolution": {
+      "lufs": -16.5,
+      "music_lufs": -17.3,
+      "sfx_lufs": -23.2,
+      "lr_corr": 0.617
+    }
+  },
+  "events": {
+    "ascent_cut": {
+      "cue": 24.0,
+      "isolated_onset_err_ms": 1.8,
+      "in_stem_onset_err_ms": -2.3
+    },
+    "separation": {
+      "cue": 35.0,
+      "isolated_onset_err_ms": 1.0,
+      "in_stem_onset_err_ms": -2.3
+    },
+    "mvac_ignition": {
+      "cue": 37.0,
+      "isolated_onset_err_ms": 0.7,
+      "in_stem_onset_err_ms": -2.4
+    },
+    "fairing_sep": {
+      "cue": 42.0,
+      "isolated_onset_err_ms": 0.2,
+      "in_stem_onset_err_ms": -1.8
+    },
+    "fairing_sep_2": {
+      "cue": 42.15,
+      "isolated_onset_err_ms": 1.2,
+      "in_stem_onset_err_ms": "masked"
+    },
+    "cold_gas_1": {
+      "cue": 45.4,
+      "isolated_onset_err_ms": 3.8,
+      "in_stem_onset_err_ms": -2.2
+    },
+    "cold_gas_2": {
+      "cue": 45.9,
+      "isolated_onset_err_ms": 3.5,
+      "in_stem_onset_err_ms": 3.1
+    },
+    "cold_gas_3": {
+      "cue": 46.3,
+      "isolated_onset_err_ms": 4.8,
+      "in_stem_onset_err_ms": "masked"
+    },
+    "cold_gas_4": {
+      "cue": 46.9,
+      "isolated_onset_err_ms": 2.9,
+      "in_stem_onset_err_ms": 0.9
+    },
+    "cold_gas_5": {
+      "cue": 47.3,
+      "isolated_onset_err_ms": 2.7,
+      "in_stem_onset_err_ms": "masked"
+    },
+    "gridfins": {
+      "cue": 47.6,
+      "isolated_onset_err_ms": 0.0,
+      "in_stem_onset_err_ms": "masked"
+    },
+    "landing_cut": {
+      "cue": 50.0,
+      "isolated_onset_err_ms": 6.3,
+      "in_stem_onset_err_ms": -2.1
+    },
+    "legs_deploy": {
+      "cue": 53.0,
+      "isolated_onset_err_ms": 6.1,
+      "in_stem_onset_err_ms": "masked"
+    },
+    "legs_latch": {
+      "cue": 54.4,
+      "isolated_onset_err_ms": 0.0,
+      "in_stem_onset_err_ms": "masked"
+    },
+    "touchdown": {
+      "cue": 56.6,
+      "isolated_onset_err_ms": 0.6,
+      "in_stem_onset_err_ms": "masked"
+    },
+    "engine_cutoff": {
+      "cue": 56.8,
+      "kind": "offset",
+      "down_6dB_after_ms": 81.5,
+      "down_20dB_after_ms": 106.6
+    },
+    "steam": {
+      "cue": 56.8,
+      "isolated_onset_err_ms": 21.9,
+      "in_stem_onset_err_ms": "masked"
+    }
+  },
+  "events_note": "isolated: onset of the event's own layer (10% of its peak); in_stem: onset inside sfx.wav (10 dB rise over the preceding 100 ms; events above 400 Hz are judged above 200 Hz); 'masked' = buried under louder sound in the stem; offset events (engine cutoff): time after the cue at which the layer's >500 Hz envelope is 6 / 20 dB below its level just before the cue",
+  "riser": {
+    "peak_time_s": 23.318,
+    "level_before_cut_db": -10.5,
+    "level_80ms_after_cut_db": -200.0,
+    "silence_level_before_ascent_db": -200.0
+  },
+  "ascent_hit_first_sample_above_-40dBFS_s": 24.0008,
+  "meco": {
+    "level_100ms_before_db": -14.3,
+    "level_50ms_after_db": -38.9,
+    "level_500ms_after_db": -38.9
+  },
+  "end": {
+    "level_last_50ms_db": -108.0,
+    "level_at_fade_out_cue_db": -31.8,
+    "level_at_0.2s_db": -79.4
+  },
+  "master": {
+    "makeup_gain_db": 1.99,
+    "glue_max_gain_reduction_db": 3.21,
+    "glue_mean_gain_reduction_db": 0.34,
+    "limiter_max_gain_reduction_db": 3.93,
+    "limiter_time_above_1dB_reduction_s": 1.535,
+    "limiter_time_above_3dB_reduction_s": 0.048,
+    "music_lufs_raw": -15.7,
+    "sfx_lufs_raw": -17.16,
+    "limiter_gr_db_by_second": [
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      1.2,
+      3.9,
+      1.4,
+      1.7,
+      2.5,
+      1.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.4,
+      0.3,
+      2.0,
+      2.6,
+      0.3,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "plan": {
+    "act4_beats": 16,
+    "act4_beat_s": 0.725,
+    "act4_bpm": 82.759,
+    "act4_bars": [
+      45.0,
+      47.9,
+      50.8,
+      53.7,
+      56.6
+    ],
+    "act2_beat_heroic_s": 0.5,
+    "act2_beat_wonder_s": 0.75,
+    "latch_t": 54.4,
+    "fairing_gap_s": 0.15,
+    "riser_cut_t": 23.4
+  },
+  "files": {
+    "mix": "C:\\kiln\\falcon9\\film\\audio\\mix.wav",
+    "music": "C:\\kiln\\falcon9\\film\\audio\\music.wav",
+    "sfx": "C:\\kiln\\falcon9\\film\\audio\\sfx.wav"
+  },
+  "bits": 24
+}

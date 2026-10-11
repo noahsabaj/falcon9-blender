@@ -1,0 +1,5 @@
+# Python packages for the scripts that run outside Blender (film/score.py, film/edit.py).
+# The model and shot scripts run inside Blender 5.2, which bundles its own Python and numpy.
+numpy>=1.26
+scipy>=1.11
+Pillow>=10.1

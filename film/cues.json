@@ -1,0 +1,53 @@
+{
+  "title": "FALCON 9",
+  "fps": 24,
+  "resolution": [1920, 1080],
+  "duration": 65.0,
+  "acts": [
+    {"name": "I. The machine", "start": 0.0, "end": 24.0,
+     "mood": "dark product-film studio; slow, reverent close-ups of the hardware; quiet awe, building"},
+    {"name": "II. Ascent", "start": 24.0, "end": 34.0,
+     "mood": "hard cut into full-throated launch at sunset; power, scale; then the twilight 'jellyfish' plume high above: wonder"},
+    {"name": "III. Space", "start": 34.0, "end": 45.0,
+     "mood": "engines cut, sudden near-silence of space; weightless, vast, delicate; the second stage lights and leaves"},
+    {"name": "IV. Return", "start": 45.0, "end": 65.0,
+     "mood": "the booster turns for home; tension rising through the descent; triumph at touchdown; resolve and calm at the end card"}
+  ],
+  "shots": [
+    {"id": "s01_nine", "start": 0.0, "end": 5.0, "desc": "fade up from black: the nine Merlin engines from below, a light sweeping across the bells"},
+    {"id": "s02_lattice", "start": 5.0, "end": 9.0, "desc": "macro glide across a titanium grid fin"},
+    {"id": "s03_livery", "start": 9.0, "end": 13.0, "desc": "crane down the side past the SPACEX letters"},
+    {"id": "s04_interstage", "start": 13.0, "end": 17.0, "desc": "orbit around the black interstage: latches, cold-gas thruster pod, grid fins"},
+    {"id": "s05_reveal", "start": 17.0, "end": 24.0, "desc": "pull back to the full 70 m vehicle in rim light; title FALCON 9 at 19.0-23.5"},
+    {"id": "s06_ascent", "start": 24.0, "end": 28.0, "desc": "hard cut: vehicle climbs past camera at sunset, plume blazing, camera shake"},
+    {"id": "s07_jellyfish", "start": 28.0, "end": 34.0, "desc": "twilight wide shot: the plume blooms into a sunlit translucent jellyfish high in a dark sky"},
+    {"id": "s08_separation", "start": 34.0, "end": 41.0, "desc": "space above Earth's limb: MECO, stage separation, second-stage ignition"},
+    {"id": "s09_fairing", "start": 41.0, "end": 45.0, "desc": "fairing halves fall away revealing the Starlink stack"},
+    {"id": "s10_flip", "start": 45.0, "end": 50.0, "desc": "booster flips with cold-gas puffs, grid fins deploy, heads home"},
+    {"id": "s11_landing", "start": 50.0, "end": 58.0, "desc": "sunset at sea: landing burn, legs deploy, touchdown on the droneship, steam"},
+    {"id": "s12_end", "start": 58.0, "end": 65.0, "desc": "booster standing on the droneship at dusk; end titles; fade to black"}
+  ],
+  "events": [
+    {"t": 0.0, "id": "fade_in", "desc": "black; sound starts from silence"},
+    {"t": 19.0, "id": "title_in", "desc": "title FALCON 9 appears"},
+    {"t": 23.4, "id": "riser_peak", "desc": "riser/swell peaks and cuts dead just before 24.0 (0.5 s of silence before the cut is fine)"},
+    {"t": 24.0, "id": "ascent_cut", "desc": "HARD CUT: full engine roar (crackling, low, enormous), music hits"},
+    {"t": 28.0, "id": "jellyfish_cut", "desc": "cut to far wide shot: roar becomes distant rumble, music opens up"},
+    {"t": 34.0, "id": "meco", "desc": "main engine cutoff: everything except a faint high shimmer drops out instantly"},
+    {"t": 35.0, "id": "separation", "desc": "pneumatic stage separation: one soft, low, muffled structure-borne thud"},
+    {"t": 37.0, "id": "mvac_ignition", "desc": "second-stage engine ignition: soft whump, then a low, felt-not-heard steady rumble"},
+    {"t": 42.0, "id": "fairing_sep", "desc": "fairing separation: two soft pops 0.15 s apart"},
+    {"t": 45.0, "id": "return_cut", "desc": "act IV begins: pulse/ostinato starts, tension rises from here"},
+    {"t": 45.4, "id": "cold_gas", "times": [45.4, 45.9, 46.3, 46.9, 47.3], "desc": "short hissing cold-gas thruster puffs (each 0.15-0.35 s)"},
+    {"t": 47.6, "id": "gridfins", "desc": "grid fins deploy: mechanical clunk"},
+    {"t": 50.0, "id": "landing_cut", "desc": "cut to sunset at sea; landing-burn roar (single engine) builds as it approaches"},
+    {"t": 53.0, "id": "legs_deploy", "desc": "landing legs deploy: pneumatic hiss and a heavy latch clunk at 54.4"},
+    {"t": 56.6, "id": "touchdown", "desc": "touchdown: heavy impact thud; music peak / resolving chord"},
+    {"t": 56.8, "id": "engine_cutoff", "desc": "engine cuts off; hiss of steam, music sustains the resolution"},
+    {"t": 59.0, "id": "end_titles", "desc": "end titles"},
+    {"t": 64.0, "id": "fade_out", "desc": "fade to black and silence by 65.0"}
+  ],
+  "intensity": [[0.0, 0.0], [1.5, 0.12], [5.0, 0.22], [13.0, 0.35], [17.0, 0.45], [21.0, 0.6], [23.4, 0.85],
+                [24.0, 1.0], [28.0, 0.75], [33.8, 0.8], [34.0, 0.05], [37.0, 0.15], [41.0, 0.3], [45.0, 0.4],
+                [50.0, 0.6], [55.0, 0.85], [56.6, 1.0], [58.0, 0.6], [62.0, 0.35], [65.0, 0.0]]
+}
